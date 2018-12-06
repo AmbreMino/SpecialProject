@@ -7,45 +7,9 @@ body {
 	height: 100%;
 	margin: 0;
 }
-/* It's not responsive */
-.jumbotron {
-  	background-image: url("Photos/Paysage.jpg");
-	background-position: center top;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	background-attachment: fixed;/* Photo doesn't move when scrolling down*/
-	width: 100%;
-	height: 1000px;
-	position: relative;
+p {
+	line-height: 1.8;
 }
-
-@media screen and (max-width:599px) {
-	.jumbotron {
-		background-image: url("Photos/Portrait.jpg");
-		position: relative;
-		background-position: center top;
-  		background-repeat: no-repeat;
-  		background-size: cover;
-		background-attachment: fixed;
-		width: 100%;
-		height: 650px;
-	}
-}
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-	.jumbotron {
-		background-image: url("Photos/Portrait.jpg");
-		position: relative;
-		background-position: center top;
-  		background-repeat: no-repeat;
-  		background-size: contain;
-		background-attachment: fixed;
-		width: 100%;
-		height: 650px;
-	}
-}
-
 .text-center-top {
 	color: #fff;
   	font-family: Montserrat, sans-serif;
@@ -54,7 +18,7 @@ and (max-device-width : 667px) {
   }
 
 h2 {
-    font-size: 24px;
+    font-size: 44px;
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
@@ -71,7 +35,7 @@ h4 {
     background-color: #f6f6f6;
 }
 .container-fluid {
-    padding: 60px 50px;
+    padding: 30px 50px;
 }
 /* Add a color to bigger icons and set font-size */
 .logo {
@@ -164,11 +128,12 @@ h4 {
 
 .navbar li a, .navbar .navbar-brand {
 	color: #fff !important;
+	font-family: Montserrat, sans-serif;
 }
 
-.navbar-brand {
+/*.navbar-brand {
 	position: static;
-}
+}*/
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #22252C ! important;
