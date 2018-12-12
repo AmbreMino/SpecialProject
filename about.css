@@ -6,6 +6,7 @@ body {
     color: #818181;
 	height: 100%;
 	margin: 0;
+	background: #DCD7D2;
 }
 p {
 	line-height: 1.8;
@@ -185,7 +186,7 @@ h4 {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-	background: white;
+	background: #DCD7D2;
 	color: black;
 }
 .fa:hover {
@@ -241,4 +242,130 @@ h4 {
 
 .trips:hover {
 	opacity: 0.4;
+}
+.contact {
+	background: #fff;
+	width: 83.5%;
+}
+
+footer {
+	color: #000;
+}
+
+.container-block {
+	position: relative;
+}
+.left-block {
+	display: inline-block;
+	float: left;
+	background: #fff;
+	margin-top: 30px;
+	margin-left: 5.2%;
+	width: 60%;
+	height: 400px;
+}
+@media screen and (max-width:599px) {
+	.left-block {
+		margin-left: 2%;
+		width: 60%;
+		height: 400px;
+	}
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.left-block {
+		margin-left: 2%;
+		width: 60%;
+		height: 400px;
+	}
+}
+h3 {
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: justify;
+	margin: 45px;
+}
+.right-upper-block {
+	display: inline-block;
+	float: right;
+	background-image: url("Photos/Our Process.png");
+	background-size:cover;
+	opacity: 0.5;
+	margin-top: 30px;
+	margin-right: 5.2%;
+	width: 27%;
+	height: 180px;
+}
+.right-upper-block:hover {
+	opacity: 1;
+}
+@media screen and (max-width:599px) {
+	.right-upper-block {
+		margin-left: 2%;
+		width: 25%;
+		height: 180px;
+	}
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.right-upper-block {
+		margin-right: 2%;
+		width: 27%;
+		height: 180px;
+	}
+}
+.right-downer-block {
+	display: inline-block;
+	float: right;
+	background-image: url("Photos/Our Process.png");
+	background-size: cover;
+	opacity: 0.5;
+	margin-top: 38px;
+	margin-right: 5.2%;
+	width: 27%;
+	height: 180px;
+}
+.right-downer-block:hover {
+	opacity: 1;
+}
+@media screen and (max-width:599px) {
+	.right-downer-block {
+		margin-left: 2%;
+		width: 25%;
+		height: 180px;
+	}
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.right-downer-block {
+		margin-right: 2%;
+		width: 27%;
+		height: 180px;
+	}
+}
+.block-buttons {
+	line-height: 90px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	background-color: #fff;
+	background-size: cover;
+	opacity: 1 !important;
+	border: 0px;
+}
+.block-buttons a:link {
+	opacity: 1 !important;
+	color: #000;
+	text-decoration: none;
+}
+.block-buttons a:active {
+	color: #000;
+	text-decoration: none;
+}
+.block-buttons a:visited {
+	color: #000;
+	text-decoration: none;
 }

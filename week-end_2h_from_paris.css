@@ -238,3 +238,7 @@ h4 {
 	text-decoration: none;
 	color: #818181;
 } 
+
+.trips:hover {
+	opacity: 0.4;
+}
