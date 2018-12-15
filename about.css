@@ -261,38 +261,99 @@ footer {
 	background: #fff;
 	margin-top: 30px;
 	margin-left: 5.2%;
-	width: 60%;
-	height: 400px;
+	max-width: 60%;
+	max-height: 400px;
+}
+@media screen and (max-width : 1199px) {
+	.left-block {
+		margin-left: 2%;
+		max-width: 60%;
+		min-height: 400px!important;
+	}
+}
+@media screen and (max-width : 991px) {
+	.left-block {
+		margin-left: 2%;
+		max-width: 60%;
+		min-height: 400px!important;
+	}
 }
 @media screen and (max-width:599px) {
 	.left-block {
-		margin-left: 2%;
-		width: 60%;
-		height: 400px;
+		margin-left: 1%;
+		max-width: 60%;
+		min-height: 400px;
 	}
 }
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
 	.left-block {
-		margin-left: 2%;
-		width: 60%;
-		height: 400px;
-	}
+		min-height: 400px;
+		display:inline-block;
+		float: inherit;
+		margin-top: 30px;
+		margin-left: 5.2%;
+		min-width: 90%;
 }
+	}
+
 h3 {
 	font-size: 20px;
 	vertical-align: middle;
 	text-align: justify;
 	margin: 45px;
 }
+@media screen and (max-width : 1199px) {
+	h3 {
+		font-size: 20px !important;
+		vertical-align: middle;
+		text-align: justify;
+		margin: 1px !important;
+	}
+}
+@media screen and (max-width : 991px) {
+	h3 {
+		font-size: 17.7px !important;
+		vertical-align: middle;
+		text-align: justify;
+		margin: 1px !important;
+	}
+}
+@media screen and (max-width : 767px) {
+	h3 {
+		font-size: 15px !important;
+		vertical-align: middle;
+		text-align: justify;
+		margin: 1px !important;
+	}
+}
+@media screen and (max-width:599px) {
+	h3 {
+		font-size: 12px !important;
+		vertical-align: middle;
+		text-align: justify;
+		margin: 1px !important;
+	}
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	h3 {
+		font-size: 5px !important;
+		vertical-align: middle;
+		text-align: justify;
+		margin: 0px !important;
+	}
+}
+
 .right-upper-block {
 	display: inline-block;
 	float: right;
 	background-image: url("Photos/Our Process.png");
 	background-size:cover;
 	opacity: 0.5;
-	margin-top: 30px;
+	margin-top: 31px;
 	margin-right: 5.2%;
 	width: 27%;
 	height: 180px;
@@ -300,22 +361,37 @@ h3 {
 .right-upper-block:hover {
 	opacity: 1;
 }
+@media screen and (max-width : 1199px) {
+	.right-upper-block {
+		margin-right: 2%;
+		max-width: 27%;
+		height: 180px;
+	}
+}
+@media screen and (max-width : 991px) {
+	.right-upper-block {
+		margin-right: 2%;
+		max-width: 30%;
+		height: 180px;
+	}
+}
 @media screen and (max-width:599px) {
 	.right-upper-block {
-		margin-left: 2%;
-		width: 25%;
-		height: 180px;
+		margin-left: 0%;
+		max-width: 40%;
+		max-height: 200px;
 	}
 }
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
 	.right-upper-block {
-		margin-right: 2%;
-		width: 27%;
-		height: 180px;
+		margin-right: 0%;
+		max-width: 40%;
+		height: 200px;
 	}
 }
+
 .right-downer-block {
 	display: inline-block;
 	float: right;
@@ -330,20 +406,34 @@ and (max-device-width : 667px) {
 .right-downer-block:hover {
 	opacity: 1;
 }
+@media screen and (max-width : 1199px) {
+	.right-downer-block {
+		margin-right: 2%;
+		max-width: 27%;
+		max-height: 180px;
+	}
+}
+@media screen and (max-width : 991px) {
+	.right-downer-block {
+		margin-right: 2%;
+		max-width: 30%;
+		max-height: 180px;
+	}
+}
 @media screen and (max-width:599px) {
 	.right-downer-block {
-		margin-left: 2%;
-		width: 25%;
-		height: 180px;
+		margin-left: 0%;
+		max-width: 40%;
+		max-height: 200px;
 	}
 }
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
 	.right-downer-block {
-		margin-right: 2%;
-		width: 27%;
-		height: 180px;
+		margin-right: 0%;
+		max-width: 40%;
+		height: 200px;
 	}
 }
 .block-buttons {
@@ -353,7 +443,6 @@ and (max-device-width : 667px) {
 	font-weight: 600;
 	background-color: #fff;
 	background-size: cover;
-	opacity: 1 !important;
 	border: 0px;
 }
 .block-buttons a:link {
@@ -368,4 +457,54 @@ and (max-device-width : 667px) {
 .block-buttons a:visited {
 	color: #000;
 	text-decoration: none;
+}
+@media screen and (max-width : 1199px) {
+	.block-buttons {
+		line-height: 70px;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 600;
+		bvertical-align: middle;
+		border-spacing: 1px;
+	}
+}
+@media screen and (max-width : 991px) {
+	.block-buttons {
+		line-height: 40px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 500;
+		vertical-align: middle;
+		border-spacing: 1px;
+	}
+}
+@media screen and (max-width : 767px) {
+	.block-buttons {
+		line-height: 30px;
+		text-align: center;
+		font-size: 10px !important;
+		font-weight: 500;
+		vertical-align: middle;
+		margin-right: 3px;
+	}
+}
+@media screen and (max-width:599px) {
+	.block-buttons {
+		line-height: 20px;
+		text-align: center;
+		font-size: 5px;
+		font-weight: 500;
+		vertical-align: middle;
+		border: 0px;
+	}
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.block-buttons {
+		fline-height: 10px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: 100;
+	}
 }
