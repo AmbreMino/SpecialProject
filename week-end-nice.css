@@ -24,7 +24,7 @@ body {
 
 @media screen and (max-width:599px) {
 	.jumbotron {
-		background-image: url("Photos/Portrait.jpg");
+		background-image: url("Photos/IMG_6965 copie.jpg");
 		position: relative;
 		background-position: center top;
   		background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
 	.jumbotron {
-		background-image: url("Photos/Portrait.jpg");
+		background-image: url("Photos/IMG_6965 copie.jpg");
 		position: relative;
 		background-position: center top;
   		background-repeat: no-repeat;
