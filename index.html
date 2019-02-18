@@ -15,7 +15,7 @@
 </head>
 
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" style="bg-grey">
 
 <header>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -66,29 +66,29 @@
 </div>
 </div>
 
-<div class="container-fluid text-center tops">
+<div class="container-fluid text-center bg-grey tops">
 <h2 style="margin-bottom: 15px">TOP ACTIVITIES IN PARIS</h2>
 <h4 style="margin-bottom: 20px">What to do, what to do...</h4>
     <div class="row text-center">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <a href="#activity_1"><img src="Photos/Fondation Cartier/Cartier.jpg" alt="Fondation Cartier" class="trips">
+        <a href="fondation_cartier.html"><img src="Photos/Fondation Cartier/Cartier.jpg" alt="Fondation Cartier" class="trips">
         <p><strong>Southern Geometries, from Mexico to Patagonia - Fondation Cartier</strong></p></a>
         <p>A colorful journey through South America</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <a href="#activity_2"><img src="Photos/JR/Luxembourg.jpg" alt="JR" class="trips">
-        <p><strong>JR - Paris Metro</strong></p></a>
+        <a href="jr.html"><img src="Photos/JR/Luxembourg.jpg" alt="JR" class="trips">
+        <p><strong>JR - Paris Metro</strong></p></a><!-- the break is if one activity takes 3 lines in total--><br>
         <p>Look at them in the eye</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <a href="#activity_3"><img src="Photos/IMG_4737 copie.jpg" alt="Walk" class="trips">
-        <p><strong>Activity 3</strong></p></a>
-        <p>Lorem ipsum dolor</p>
+        <a href="dau.html"><img src="Photos/DAU/Thumbnail.jpeg" alt="DAU" class="trips">
+        <p><strong>DAU</strong></p></a><!-- the break is if one activity takes 3 lines in total--><br>
+        <p>A vast collaborative experiment</p>
       </div>
     </div>
 	</div>
@@ -101,9 +101,9 @@
 	<div class="row text-center">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <a href="#week-end_1"><img src="Photos/IMG_5700 copie.jpg" alt="Plage" class="trips">
-        <p><strong>Week-end 1</strong></p></a>
-        <p>Lorem ipsum dolor</p>
+        <a href="#week-end_1"><img src="Photos/IMG_5700 copie.jpg" alt="Berlin" class="trips">
+        <p><strong>Berlin</strong></p></a>
+        <p>My favorite city ever!</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -115,16 +115,16 @@
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <a href="#week-end_3"><img src="Photos/IMG_6965 copie.jpg" alt="Sunset Nice" class="trips">
-        <p><strong>Week-end 3</strong></p></a>
-        <p>Lorem ipsum dolor</p>
+        <a href="week-end-nice.html"><img src="Photos/IMG_6965 copie.jpg" alt="Sunset Nice" class="trips">
+        <p><strong>Nice</strong></p></a>
+        <p>Nice is nice all year round (See what I did there?)</p>
       </div>
     </div>
 	</div>
 </div>
 <a class="see-more" href="week_end_trips.html">See all week-end trips</a>
 	
-<div id="portfolio" class="container-fluid text-center tops">
+<div id="portfolio" class="container-fluid text-center bg-grey tops">
   <h2 style="margin-bottom: 15px">LONG TRIPS</h2>
   <h4 style="margin-bottom: 20px">What if you went the distance ?</h4>
   <div class="row text-center">
@@ -192,8 +192,9 @@
     </div>
   </div>
 </div>
+<a class="see-more" href="#travel_tips">See all tips</a>
 
-<div class="container-fluid bg-grey">
+<div class="container-fluid">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -223,11 +224,11 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center" id="footer">
   <a href="#to-top" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>© Copyright 2018 - Where 2 Go</p>
+  <p>© Copyright 2019 - Where 2 Go</p>
 	<!-- Add font icons -->
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
