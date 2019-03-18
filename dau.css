@@ -282,3 +282,17 @@ h2 a.visited {
     font-style: normal;
 }
 
+
+
+.carousel-inner img {
+	margin: 0 auto;
+}
+
+
+
+@media (max-width: 667px) {
+	.jumbotron {
+	background-size: cover;
+	background-position: center;
+	background-attachment: initial;
+}

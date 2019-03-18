@@ -282,3 +282,12 @@ h2 a.visited {
     font-style: normal;
 }
 
+
+
+@media (max-width: 667px) {
+	.jumbotron {
+	background-size: cover;
+	background-position: center;
+	background-attachment: initial;
+	}
+}

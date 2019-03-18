@@ -290,3 +290,20 @@ h4 {
 }
 
 
+@media (min-width: 992px) {
+	.testimonials3:nth-child(4) .media-container-row {
+	flex-direction: row-reverse;
+	}
+	
+	.testimonials3:nth-child(4) .media-content {
+	padding-left: 2rem;
+	}
+}
+
+
+
+.card-img img {
+	max-height: 150px;
+	max-width: auto;
+	width: auto;
+}
