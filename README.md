@@ -1,2 +1,0 @@
-# SpecialProject
-Special Project
