@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -10,12 +13,6 @@ body {
 p {
 	line-height: 1.8;
 }
-.text-center-top {
-	color: #fff;
-  	font-family: Montserrat, sans-serif;
-	padding: 170px 20px 20px 20px;
-	/*margin-top: 15%;*/
-  }
 
 h2 {
     font-size: 44px;
@@ -131,9 +128,9 @@ h4 {
 	font-family: Montserrat, sans-serif;
 }
 
-/*.navbar-brand {
+.navbar-brand {
 	position: static;
-}*/
+}
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #22252C ! important;

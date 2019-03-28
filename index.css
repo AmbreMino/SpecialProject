@@ -3,7 +3,6 @@
 html {
 	scroll-behavior: smooth;
 }
-
 body {
 	background-color: #F6F6F6;
     font: 400 15px Lato, sans-serif;
@@ -200,13 +199,13 @@ h4 {
 /* Dropdown */
 .open .dropdown-toggle {
 	border-color: transparent;
-    color: #fff !important;
+  color: #fff !important;
 	background-color: transparent !important;
 }
 
 .open .dropdown-menu {
-	background-color: #fff !important ;
-	border-color: #fff !important;
+	background-color: #6D7993 !important ;
+	border-color: #6D7993 !important;
 	box-shadow: none;
 	text-align: right;
 }

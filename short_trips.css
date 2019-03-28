@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+html {
+	scroll-behavior: smooth;
+}
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -31,8 +34,8 @@ body {
 		height: 650px;
 	}
 }
-@media only screen 
-and (min-device-width : 375px) 
+@media only screen
+and (min-device-width : 375px)
 and (max-device-width : 667px) {
 	.jumbotron {
 		background-image: url("Photos/Portrait.jpg");
@@ -84,7 +87,7 @@ h4 {
         text-align: center;
         margin: 25px 0;
     }
-} 
+}
 /* Add a color to all icons and set the font-size */
 .logo-small {
     color: #6D7993;
@@ -272,7 +275,7 @@ h4 {
 .tops a:visited{
 	text-decoration: none;
 	color: #818181;
-} 
+}
 
 .trips:hover {
 	opacity: 0.4;
