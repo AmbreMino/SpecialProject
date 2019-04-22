@@ -12,7 +12,7 @@ body {
 }
 /* It's not responsive */
 .jumbotron {
-  	background-image: url("Photos/IMG_6965 copie.jpg");
+  	background-image: url("Photos/DAU/dau.jpg");
 	background-position: center top;
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -24,7 +24,7 @@ body {
 
 @media screen and (max-width:599px) {
 	.jumbotron {
-		background-image: url("Photos/IMG_6965 copie.jpg");
+		background-image: url("Photos/DAU/dau.jpg");
 		position: relative;
 		background-position: center top;
   		background-repeat: no-repeat;
@@ -34,11 +34,11 @@ body {
 		height: 650px;
 	}
 }
-@media only screen 
-and (min-device-width : 375px) 
+@media only screen
+and (min-device-width : 375px)
 and (max-device-width : 667px) {
 	.jumbotron {
-		background-image: url("Photos/IMG_6965 copie.jpg");
+		background-image: url("Photos/DAU/dau.jpg");
 		position: relative;
 		background-position: center top;
   		background-repeat: no-repeat;
@@ -51,8 +51,9 @@ and (max-device-width : 667px) {
 
 .text-center-top {
 	color: #fff;
+	font-weight: bold;
   	font-family: Montserrat, sans-serif;
-	padding: 230px 20px 0px 200px;
+	padding: 200px 0px 0px 0px;
 	/*margin-top: 15%;*/
   }
 
@@ -87,7 +88,7 @@ h4 {
         text-align: center;
         margin: 25px 0;
     }
-} 
+}
 /* Add a color to all icons and set the font-size */
 .logo-small {
     color: #6D7993;
@@ -206,108 +207,12 @@ h4 {
 	margin-top: -5px;
 }
 
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 35px;
-  left: 0;
-  background: linear-gradient(0deg, #ccccff, #6D7993);
-  overflow-x: hidden;
-  padding-top: 20px;
-}
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
+.main {
+  margin: 5% 5% 5% 5%;
+  font-size: 18px; /* Increased text to enable scrolling */
+	}
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-@media screen and (min-width: 1200px) {
-	.sidenav {
-  width: 230px;
-	}
-	.sidenav a {
-  font-size: 25px;
-	}
-	.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 16px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-	}
-}
-@media screen and (max-width: 1199px) {
-	.sidenav {
-  width: 200px;
-	}
-	.sidenav a {
-  font-size: 23px;
-	}
-	.main {
-  margin-left: 180px; /* Same as the width of the sidenav */
-  font-size: 12px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-	}
-}
-@media screen and (max-width: 991px) {
-	.sidenav {
-  width: 170px;
-	}
-	.sidenav a {
-  font-size: 20px;
-	}
-	.main {
-  margin-left: 150px; /* Same as the width of the sidenav */
-  font-size: 12px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-	}
-}
-@media screen and (max-width: 767px) {
-	.sidenav {
-  width: 170px;
-	}
-	.sidenav a {
-  font-size: 17px;
-	}
-	.main {
-  margin-left: 140px; /* Same as the width of the sidenav */
-  font-size: 11px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-	}
-}
-@media screen and (max-width: 599px) {
-	.sidenav {
-  width: 170px;
-	}
-	.sidenav a {
-  font-size: 17px;
-	}
-	.main {
-  margin-left: 140px; /* Same as the width of the sidenav */
-  font-size: 11px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-	}
-}
-.sidenav a {
-	color: #fff !important;
-	font-weight: normal !important;
-}
-
-.sidenav a:hover, .sidenav a:active {
-    color: #22252C ! important;
-	font-weight: normal;
-}
 
 h2 a {
 	color: #303030;
@@ -327,12 +232,6 @@ h2 a.visited {
 	color: #303030;
 	text-decoration: none;
 }
-.sidenav p {
-	color: #fff;
-	font-family: Montserrat, sans-serif;
-	font-size: 14px;
-	margin-left: 7px;
-}
 
 .glyphicon {
 	margin-left: 7px;
@@ -349,4 +248,51 @@ h2 a.visited {
 
 .logo-left {
 	margin-left: 2px;
+}
+
+
+#subtext {
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	text-transform: none!important;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #6D7993;
+}
+
+.carousel-indicators li {
+    border-color: #818181;
+}
+
+.carousel-indicators li.active {
+    background-color: #6D7993;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+
+
+.carousel-inner img {
+	margin: 0 auto;
+}
+
+
+
+@media (max-width: 667px) {
+	.jumbotron {
+	background-size: cover;
+	background-position: center;
+	background-attachment: initial;
 }

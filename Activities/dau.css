@@ -12,7 +12,7 @@ body {
 }
 /* It's not responsive */
 .jumbotron {
-  	background-image: url("Photos/JR/Luxembourg.jpg");
+  	background-image: url("../Photos/DAU/dau.jpg");
 	background-position: center top;
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -24,7 +24,7 @@ body {
 
 @media screen and (max-width:599px) {
 	.jumbotron {
-		background-image: url("Photos/Fondation Cartier/Cartier.jpg");
+		background-image: url("../Photos/DAU/dau.jpg");
 		position: relative;
 		background-position: center top;
   		background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 	.jumbotron {
-		background-image: url("Photos/Fondation Cartier/Cartier.jpg");
+		background-image: url("../Photos/DAU/dau.jpg");
 		position: relative;
 		background-position: center top;
   		background-repeat: no-repeat;
@@ -281,6 +281,14 @@ h2 a.visited {
 .item span {
     font-style: normal;
 }
+
+
+
+.carousel-inner img {
+	margin: 0 auto;
+}
+
+
 
 @media (max-width: 667px) {
 	.jumbotron {
